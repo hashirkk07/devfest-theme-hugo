@@ -1,4 +1,10 @@
 ---
 label: page1
 hide_body: false
-fields: []
+fields:
+- name: choose_color
+  type: color
+  config:
+    required: false
+    color_format: Hex
+  label: choose color
